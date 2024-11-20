@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Básica con Barra de Navegación</title>
+    <style>
+        .navbar {
+            background-color: #C71585;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            background-color: #800080;
+            padding: 5px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            border: 1px solid #D8BFD8;
+            background-color: #D87093;
+            width: 80%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Inicio</h2>
+        <p>Somos una empresa de salsas que perdura el legado y la tradición de nuestros antepasados sobre el gusto por el picor es lo que busca la empresa al integrar este concepto a la vida habitual de las personas.</p>
+    </section>
+
+    <section>
+        <h2>Servicios</h2>
+        <p>Ofrecemos 6 tipos de salsas elaboradas de manera artesanal a los hogares. Salsas x ofrece productos de calidad y a precios accesibles.</p>
+        <div style="text-align: center;">
+        <img src="/Proyectos/img/salsas.webp" alt="Imagen de servicios" style="max-width: 100%; height:auto;">
+        </div>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos al numero de telefono 9241411883 través de nuestras redes sociales facebook,instagram o enviar un correo electrónico al ... para más información.</p>
+    </section>
+
+</body>
+</html>
